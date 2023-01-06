@@ -9,12 +9,12 @@ const volvo = {
     velMax: 250
 }
 
-console.log(ferrai.__proto__)
-console.log(ferrai.__proto__ = Object.prototype)
+console.log(ferrari.__proto__)
+console.log(ferrari.__proto__ = Object.prototype)
 console.log(volvo.__prot__ = Object.prototype)
 console.log(Object.prototype.__proto__ = null) 
 
 function meuObjeto(){
-    console.log(typeof Object, typeof MeuObjeto)
+    console.log(typeof Object, typeof meuObjeto)
     console.log(Object.prototypem, meuObjeto.prototype,)
 }
